@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.top-header{
+    background-color: #316DC3 !important;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.top-header ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.top-header li{
+    padding-left: 65px;
+}
+.top-header li a{
+    color:#fff;
+    padding: 12px;
+    font-size: 15px;
+}
+.top-header img{
+    margin-top: 5px;
+    margin-left: 19px;
+}
+.million-of-people p{
+    color: #fff;
+    padding-left: 96px;
+    font-size: 15px;
+}
+.uk-donars{
+    border: 1px solid #eee;
+    padding: 5px;
+    font-size: 12px;
+    color: #427900;
+    background-color:#eee;
+    margin-left: 103px;
+   font-family: 'Roboto', sans-serif;
+}
+.donate-now{
+    border: 1px solid #eee;
+    padding: 5px;
+    font-size: 12px;
+    margin: 7px;
+    color: #427900;
+    background-color:#eee;
+    font-family: 'Roboto', sans-serif;
+}
+.smit-result{
+    border: 1px solid #eee;
+    padding: 5px;
+    font-size: 12px;
+    color: #427900;
+    background-color:#eee;
+    font-family: 'Roboto', sans-serif;
+}
+/*top header close*/
+/*header work start*/
+.header{
+    background-color: #f7f8fa !important;
+    display: flex;
+    height: 67px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.header .logo{
+   height: 58px;
+   width: 216px;
+}
+.header .home{
+    display: flex;
+}
+.header .home li{
+    padding-left: 28px;
+    padding-top: 8px;
+    font-size: 15px;
+}
+.header .home li a{
+    color: black;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.header .home{
+    margin-left: 186px;
+}
+/*header work close*/
+/*headline*/
+.headline{
+    width: 1157px;
+
+    background-color: #316DC3 !important;
+    
+    color: aliceblue;
+    
+    border: 1px solid;
+    
+    height: 28px;
+    
+    margin-left: 51px;
+    margin-top: 9px;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    background-color:#f7f8fa !important;
+}
+.peragraph{
+    color: #666666;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 168px 10px 168px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 15px;
+}
+.introduction .logo{
+    margin-left: 615px;
+    height: 40px;
+    width: 40px;
+    margin-top: -17px;
+}
+/*introduction work complete*/
+.number{
+    display: flex;
+    background-color: rgb(2, 98, 233);
+}
+.number .daily{
+    height: 400px;
+    width: 300px;
+}
+.what-we-are-doing{
+    background-color:#f7f8fa !important;
+    height: 660px;
+    
+}
+.logo-what-we-are-doing{
+    margin-left: 615px;
+    height: 400px;
+    margin-top: -15px;
+}
+.online{
+    width: 355px;
+    height: 190px;
+    border: 2px solid #eee;
+    box-shadow: 6px 6px 12px 6px rgba(219, 216, 216, 0.664);
+    display: inline-flex;
+    text-align: center;
+    margin: 12px;
+    background-color: #fff;
+    color: #316DC3;
+}
+.projects{
+    border: 1px solid #eee;
+    background-color:rgba(238, 238, 238, 0.349);
+    display: flex;
+    width: 350px;
+    height: 74px;
+}
+.upcoming-events{
+    display: flex;
+    flex-direction: column;
+}
+.image-gellery{
+    height: 500px;
+}
+.images{
+    display: flex;
+    margin-top: 30px;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(37, 39, 46) !important;
+}
+.face-facebook{
+    border: 0px solid white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #316DC3 !important;
+}
+.fab{
+    color: #fff;
+    font-size: 12px;
+}
+.copyright{
+    background-color: #316DD9 !important;
+    color: #fff;
+    height: 50px;
+}
+h1{
+    font-family: 'Merriweather', serif;
+}
+h3{
+    font-family: 'Merriweather', serif;
+}
+.gotopbtn{
+    position: fixed;
+    width: 55px;
+    height: 50px;
+    background: #00000023;
+    bottom: 20px;
+    right: 30px;
+  
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+  }
+  .gotopbtn:hover{
+    background: #00000093;
+  }
